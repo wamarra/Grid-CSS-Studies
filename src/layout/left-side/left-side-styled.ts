@@ -1,10 +1,10 @@
 import styled, { css, keyframes } from "styled-components";
+import logo from "../../assets/Logo.svg";
 import iconAdd from "../../assets/icon-add.png";
 import iconCristal from "../../assets/icon-crystal.png";
 import iconDualCrystal from "../../assets/icon-dual-crystal.png";
 import iconExplore from "../../assets/icon-explore.png";
 import iconMeal from "../../assets/icon-meal.png";
-import logo from "../../assets/Logo.svg";
 import sideBar from "../../assets/side-bar.svg";
 
 export const slideIn = keyframes`
@@ -182,15 +182,3 @@ export const IconAdd = styled(SideBarIcon)`
     url(${iconAdd});
   top: 397px;
 `;
-
-// position: relative;
-// width: #{100%/$tab-count};
-// transition: all 0.33s cubic-bezier(0.38, 0.8, 0.32, 1.07);
-// .indicator {
-//   position: relative;
-//   width: $indicator-width;
-//   max-width: 100%;
-//   margin: 0 auto;
-//   height: $indicator-height;
-//   background: $accent;
-//   border-radius: 1px;
