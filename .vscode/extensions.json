@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "jawandarajbir.react-vscode-extension-pack",
+    "styled-components.vscode-styled-components",
+    "editorconfig.editorconfig",
+  ],
+}
